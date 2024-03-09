@@ -41,7 +41,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px 10px 10px 10px / 50px 50px 50px 50px;
+    border-radius: 100px;
     box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
     box-sizing: border-box;
     z-index: 1;
@@ -105,18 +105,18 @@ span {
 }
 
 .section1btn h1 {
-    letter-spacing: 28px;
+    letter-spacing: 34px;
 }
 
 .btn {
-    width: 150px;
+    width: 100px;
     height: 40px;
     background-color: #2f2e41;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px 10px 10px 10px / 50px 50px 50px 50px;
+    border-radius: 100px;
     margin-top: 20px;
     color: white;
     font-family: calibri;
@@ -177,7 +177,7 @@ span {
 .productsection {
     width: 85%;
     background-color: white;
-    box-sizing: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
     display: flex;
     align-items: center;
     margin: 30px auto;
@@ -210,7 +210,7 @@ span {
 
 .productbox {
     width: 250px;
-    height: 330px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,17 +238,17 @@ span {
 }
 
 .buybtn {
-    position: absolute;
+    position: relative;
     width: 140px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: calibri;
-    left: 50%;
+    left: 25%;
     bottom: -20px;
     transform: translateX(-50%);
-    border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+    border-radius: 100px;
     background: linear-gradient(120deg, #6b60ec, #a166f4);
     color: white;
     display: none;
@@ -321,7 +321,7 @@ span {
     align-items: center;
 }
 
-.notification h3 {
+.notification h1 {
     font-size: 2rem;
     color: rgb(56, 56, 56);
 }
@@ -329,7 +329,7 @@ span {
 .notificationinput {
     width: 500px;
     background-color: white;
-    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    border-radius: 100px;
     height: 60px;
     display: flex;
     justify-content: center;
